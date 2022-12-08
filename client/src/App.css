@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.login-container, .register-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    border: 1px solid black;
+    padding: 1em;
+    background-color: rgba(142, 142, 151, 0.2);
+    backdrop-filter: blur(10em);
+}
+
+input, button{
+    height: .5em;
+    padding: 1.2em;
+}
+
+select{
+    padding: .7em;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+.view-room{
+    border: 1px solid black;
+}
+
+/* id of tenant in TenantRow.jsx */
+span{
+    font-size: .5em;
+}
